@@ -9,10 +9,21 @@ module.exports = {
     },
     fontFamily : {
       'general' : ['Oswald'],
+    },
+    backgroundImage : {
+      'laptop' : "url('https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')",
+    },
+    gridTemplateAreas: {
+      'topContainer' : [
+        'showcase showcase top-box-a',
+        'showcase showcase top-box-b'
+      ]
     }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@savvywombat/tailwindcss-grid-areas')
+  ],
 }
