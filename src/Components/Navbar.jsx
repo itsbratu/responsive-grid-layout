@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return(
         <div class = "main-nav ">
-            <ul className = "grid grid-cols-4 gap-5 p-0 list-none">
+            <ul className = "grid grid-cols-4 gap-5 p-0 list-none sm:grid-cols-1">
                 <li class = "bg-primary block no-underline p-3 text-center text-dark uppercase text-lg shadow-lg hover:bg-dark hover:text-light">
                     <a href = "#">
                         Home

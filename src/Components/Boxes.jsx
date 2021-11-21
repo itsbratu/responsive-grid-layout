@@ -2,7 +2,7 @@ import React from 'react'
 
 const Boxes = () => {
     return(
-        <section className = "grid grid-cols-4 gap-5">
+        <section className = "grid grid-cols-4 gap-5 sm:grid-cols-1">
             <div className = "bg-primary items-center py-6 px-8 text-center">
                 <i class="fas fa-chart-pie fa-4x"></i>
                 <h3>Analytics</h3>
