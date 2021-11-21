@@ -18,10 +18,10 @@ module.exports = {
         'showcase showcase top-box-a',
         'showcase showcase top-box-b'
       ]
-    }
+    },
   },
   variants: {
-    extend: {},
+    gridTemplateAreas: ['responsive']
   },
   plugins: [
     require('@savvywombat/tailwindcss-grid-areas')
