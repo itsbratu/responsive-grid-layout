@@ -1,9 +1,10 @@
+import MainLayout from "./Components/MainLayout";
+
 function App() {
   return (
-    <div className="App">
-        <h1 className = "text-green-600">I like tailwind!</h1>
-    </div>
+    <MainLayout />
   );
 }
 
 export default App;
+ 
